@@ -434,7 +434,8 @@ src="https://www.facebook.com/tr?id=816630154003036&ev=PageView&noscript=1"
 
 
                <form id="order_form_custom" class="order_form" action="https://tovarua.github.io/pavilion/.php" method="POST" name="order-form">
-                  <input class="field" type="text" name="name" placeholder="Ваше ім&#39;я та прізвище" required="">
+                  <input class="field" type="text" name="name" placeholder="Ваше Ім&#39;я" required="">
+		  <input class="field" type="text" name="name" placeholder="Ваше Прізвище" required="">
                   <input class="field" type="tel" name="phone" minlength="10" maxlength="15" placeholder="Ваш телефон" required="">
                   <input class="field" type="text" name="city" placeholder="Ваше місто (село)" required="">
                   <input class="field" type="text" name="np" placeholder="Ваш номер нової пошти" required="">
